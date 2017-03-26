@@ -1,0 +1,60 @@
+.navbar {
+  float: right;
+	display: block;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	padding-top:10px;
+	padding-right: 10px;
+	display: inline;
+  float: left;
+}
+
+.main_div{
+  width: 50%;
+	margin: auto;
+}
+
+img {
+  display: block;
+  margin: auto;
+  /*width: 40%; */
+}
+
+form {
+  display: block;
+  margin: auto;
+  width: 80%; 
+	text-align: center;
+}
+
+input[type=text] {
+	width: 95%;
+  height: 30px;
+}
+
+input[type=button] {
+	margin-top: 5px;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0px;
+	display: block;
+}
+
+.footer .left ul {
+  float: left;
+}
+
+.footer .right ul {
+  float: right;
+}
+
+
