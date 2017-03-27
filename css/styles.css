@@ -31,7 +31,7 @@ form {
   display: block;
   margin: auto;
   width: 80%; 
-	text-align: center;
+  text-align: center;
 }
 
 input[type=text] {
@@ -45,15 +45,22 @@ input[type=button] {
 
 .footer {
 	position: absolute;
+	width:100%;
+	margin: auto;
 	bottom: 0px;
-	display: block;
+	background-color: gray;
+	padding-bottom: : 1em;
 }
 
-.footer .left ul {
+.footer .left {
+  position: relative;
+  display: inline;
   float: left;
 }
 
-.footer .right ul {
+.footer .right {
+  position: relative;
+  display: inline;
   float: right;
 }
 
